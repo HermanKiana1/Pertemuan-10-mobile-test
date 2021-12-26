@@ -23,11 +23,9 @@ Mobile.tap(findTestObject('Object Repository/Add to cart/android.widget.ImageVie
 
 Mobile.tap(findTestObject('Object Repository/Add to cart/android.widget.Button - ADD TO CART'), 0)
 
-Mobile.setText(findTestObject('Object Repository/Add to cart/android.widget.EditText'), '2', 0)
+Mobile.setText(findTestObject('Object Repository/Add to cart/android.widget.EditText'), '1', 0)
 
 Mobile.tap(findTestObject('Object Repository/Add to cart/android.widget.Button - ADD'), 0)
-
-Mobile.tap(findTestObject('Object Repository/Add to cart/android.widget.ImageButton'), 0)
 
 Mobile.closeApplication()
 

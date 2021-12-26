@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>Add to cart</name>
+   <name>Edit Profil</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>d4569058-6a06-4359-af02-409e4eaafc82</testCaseGuid>
+   <testCaseGuid>5ebc7616-c0c5-46b5-9485-77b4d9a0712a</testCaseGuid>
 </TestCaseEntity>
