@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Category Baby Gear" time="26.941" tests="1" failures="0" errors="0">
+   <testsuite name="Category Baby Gear" tests="1" failures="0" errors="0" time="26.941" skipped="0" timestamp="2021-12-27 00:50:37" hostname="kb-fmf-kpm - localhost" id="Test Suites/Tugas 10/Category Baby Gear">
+      <properties>
+         <property name="deviceName" value="samsung SM-G770F (Android 10)"/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/Users/kb-fmf-kpm/Documents/Katalon Project/Tugas Mobile sesi 10/Pertemuan 10 Mobile/Pertemuan-10-mobile-test/Reports/20211227_005034/Tugas 10/Category Baby Gear/20211227_005034"/>
+         <property name="logFiles" value="/Users/kb-fmf-kpm/Documents/Katalon Project/Tugas Mobile sesi 10/Pertemuan 10 Mobile/Pertemuan-10-mobile-test/Reports/20211227_005034/Tugas 10/Category Baby Gear/20211227_005034/execution0.log, /Users/kb-fmf-kpm/Documents/Katalon Project/Tugas Mobile sesi 10/Pertemuan 10 Mobile/Pertemuan-10-mobile-test/Reports/20211227_005034/Tugas 10/Category Baby Gear/20211227_005034/appium.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="kb-fmf-kpm - localhost"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="appiumServerStatus" value="{&quot;value&quot;:{&quot;build&quot;:{&quot;version&quot;:&quot;1.22.0&quot;}},&quot;sessionId&quot;:null,&quot;status&quot;:0}"/>
+         <property name="katalonVersion" value="8.1.0.208"/>
+         <property name="deviceOS" value="Android"/>
+         <property name="appiumVersion" value="1.22.0"/>
+         <property name="deviceModel" value="SM-G770F"/>
+         <property name="hostAddress" value="127.0.0.1"/>
+         <property name="deviceManufacturer" value="samsung"/>
+         <property name="deviceId" value="RR8N204HASH"/>
+         <property name="deviceName" value="samsung SM-G770F (Android 10)"/>
+         <property name="deviceOSVersion" value="10"/>
+      </properties>
+      <testcase name="Test Cases/Category Baby Gear" time="25.97" classname="Test Cases/Category Baby Gear" status="PASSED">
+         <system-out><![CDATA[2021-12-27 00:50:37 - [TEST_CASE][PASSED] - Test Cases/Category Baby Gear: Test Cases/Category Baby Gear
+
+2021-12-27 00:50:37 - [TEST_STEP][PASSED] - startApplication("/Users/kb-fmf-kpm/Downloads/ECommerce -SAMPLE-Android.apk", true): Started app at: '/Users/kb-fmf-kpm/Downloads/ECommerce -SAMPLE-Android.apk'
+
+2021-12-27 00:50:38 - [MESSAGE][INFO] - Appium server started on port 59,746
+
+2021-12-27 00:50:50 - [MESSAGE][PASSED] - Started app at: '/Users/kb-fmf-kpm/Downloads/ECommerce -SAMPLE-Android.apk'
+
+2021-12-27 00:50:50 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Category/android.widget.FrameLayout"), 0): Tapped on element 'Object Repository/Category/android.widget.FrameLayout'
+
+2021-12-27 00:50:50 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2021-12-27 00:50:54 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Category/android.widget.FrameLayout'
+
+2021-12-27 00:50:54 - [TEST_STEP][PASSED] - tap(findTestObject("Category/android.widget.RelativeLayout"), 0): Tapped on element 'Object Repository/Category/android.widget.RelativeLayout'
+
+2021-12-27 00:50:54 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2021-12-27 00:50:56 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Category/android.widget.RelativeLayout'
+
+2021-12-27 00:50:56 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Category/android.widget.TextView - Baby Gear"), "Baby Gear"): Actual text and expected text of test object 'Object Repository/Category/android.widget.TextView - Baby Gear' are matched.
+
+2021-12-27 00:50:57 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Category/android.widget.TextView - Baby Gear' are matched.
+
+2021-12-27 00:50:57 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2021-12-27 00:51:02 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2021-12-27 00:51:02 - [TEST_STEP][PASSED] - closeApplication(): Close app successfully
+
+2021-12-27 00:51:03 - [MESSAGE][PASSED] - Close app successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2021-12-27 00:50:37 - [TEST_SUITE][PASSED] - Category Baby Gear: Test Cases/Category Baby Gear]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

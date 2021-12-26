@@ -1,0 +1,10 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Category Baby Gear,,,,2021-12-27 00:50:37,2021-12-27 00:51:03,26.449s,PASSED
+,,,,,,,
+Test Cases/Category Baby Gear,,,,2021-12-27 00:50:37,2021-12-27 00:51:03,25.970s,PASSED
+"startApplication(""/Users/kb-fmf-kpm/Downloads/ECommerce -SAMPLE-Android.apk"", true)",,,,2021-12-27 00:50:37,2021-12-27 00:50:50,12.187s,PASSED
+"tap(findTestObject(""Object Repository/Category/android.widget.FrameLayout""), 0)",,,,2021-12-27 00:50:50,2021-12-27 00:50:54,4.109s,PASSED
+"tap(findTestObject(""Category/android.widget.RelativeLayout""), 0)",,,,2021-12-27 00:50:54,2021-12-27 00:50:56,2.681s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Category/android.widget.TextView - Baby Gear""), ""Baby Gear"")",,,,2021-12-27 00:50:56,2021-12-27 00:50:57,0.326s,PASSED
+delay(5),,,,2021-12-27 00:50:57,2021-12-27 00:51:02,5.070s,PASSED
+closeApplication(),,,,2021-12-27 00:51:02,2021-12-27 00:51:03,1.200s,PASSED

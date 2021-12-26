@@ -1,0 +1,15 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Add to Cart,,,,2021-12-27 00:49:17,2021-12-27 00:49:45,27.639s,PASSED
+,,,,,,,
+Test Cases/Add to cart,,,,2021-12-27 00:49:18,2021-12-27 00:49:45,27.174s,PASSED
+"startApplication(""/Users/kb-fmf-kpm/Downloads/ECommerce -SAMPLE-Android.apk"", true)",,,,2021-12-27 00:49:18,2021-12-27 00:49:31,12.168s,PASSED
+"tap(findTestObject(""Object Repository/Add to cart/android.widget.ImageView""), 0)",,,,2021-12-27 00:49:31,2021-12-27 00:49:35,4.768s,PASSED
+"tap(findTestObject(""Object Repository/Add to cart/android.widget.Button - ADD TO CART""), 0)",,,,2021-12-27 00:49:35,2021-12-27 00:49:36,0.389s,PASSED
+"setText(findTestObject(""Object Repository/Add to cart/android.widget.EditText""), ""1"", 0)",,,,2021-12-27 00:49:36,2021-12-27 00:49:38,1.686s,PASSED
+"tap(findTestObject(""Object Repository/Add to cart/android.widget.Button - ADD""), 0)",,,,2021-12-27 00:49:38,2021-12-27 00:49:38,0.835s,PASSED
+driver = getDriver(),,,,2021-12-27 00:49:38,2021-12-27 00:49:38,0.001s,PASSED
+"toast = driver.findElementByXPath(""//android.widget.Toast[@text='Success add Product to cart']"")",,,,2021-12-27 00:49:38,2021-12-27 00:49:39,0.589s,PASSED
+"println(""Toast element: "" + toast)",,,,2021-12-27 00:49:39,2021-12-27 00:49:39,0.017s,PASSED
+if (toast == null),,,,2021-12-27 00:49:39,2021-12-27 00:49:39,0.006s,PASSED
+delay(5),,,,2021-12-27 00:49:39,2021-12-27 00:49:44,5.078s,PASSED
+closeApplication(),,,,2021-12-27 00:49:44,2021-12-27 00:49:45,1.073s,PASSED

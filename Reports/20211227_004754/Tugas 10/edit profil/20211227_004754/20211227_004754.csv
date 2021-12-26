@@ -1,0 +1,26 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+edit profil,,,,2021-12-27 00:47:58,2021-12-27 00:48:36,37.569s,PASSED
+,,,,,,,
+Test Cases/Edit Profil,,,,2021-12-27 00:47:58,2021-12-27 00:48:36,37.107s,PASSED
+"startApplication(""/Users/kb-fmf-kpm/Downloads/ECommerce -SAMPLE-Android.apk"", true)",,,,2021-12-27 00:47:59,2021-12-27 00:48:11,12.068s,PASSED
+"tap(findTestObject(""Object Repository/Profil 2/android.widget.FrameLayout""), 0)",,,,2021-12-27 00:48:11,2021-12-27 00:48:15,4.443s,PASSED
+"tap(findTestObject(""Object Repository/Profil 2/android.widget.TextView - EDIT""), 0)",,,,2021-12-27 00:48:15,2021-12-27 00:48:16,0.424s,PASSED
+"tap(findTestObject(""Object Repository/Profil 2/android.widget.RelativeLayout""), 0)",,,,2021-12-27 00:48:16,2021-12-27 00:48:18,1.905s,PASSED
+"setText(findTestObject(""Object Repository/Profil 2/android.widget.EditText - Your Name""), ""asura"", 0)",,,,2021-12-27 00:48:18,2021-12-27 00:48:19,0.784s,PASSED
+"tap(findTestObject(""Object Repository/Profil 2/android.widget.Button - OK""), 0)",,,,2021-12-27 00:48:19,2021-12-27 00:48:20,1.359s,PASSED
+"tap(findTestObject(""Object Repository/Profil 2/android.widget.RelativeLayout (1)""), 0)",,,,2021-12-27 00:48:20,2021-12-27 00:48:21,1.018s,PASSED
+"setText(findTestObject(""Object Repository/Profil 2/android.widget.EditText - your.emailgmail.com""), ""asura@gmail.com"", 0)",,,,2021-12-27 00:48:21,2021-12-27 00:48:22,0.827s,PASSED
+"tap(findTestObject(""Profil 2/android.widget.Button - OK""), 0)",,,,2021-12-27 00:48:22,2021-12-27 00:48:23,0.820s,PASSED
+"tap(findTestObject(""Object Repository/Profil 2/android.widget.RelativeLayout (2)""), 0)",,,,2021-12-27 00:48:23,2021-12-27 00:48:24,1.380s,PASSED
+"setText(findTestObject(""Object Repository/Profil 2/android.widget.EditText - 628123456789""), ""0813877777000"", 0)",,,,2021-12-27 00:48:24,2021-12-27 00:48:25,0.786s,PASSED
+"tap(findTestObject(""Profil 2/android.widget.Button - OK""), 0)",,,,2021-12-27 00:48:25,2021-12-27 00:48:26,0.853s,PASSED
+"tap(findTestObject(""Object Repository/Profil 2/android.widget.RelativeLayout (3)""), 0)",,,,2021-12-27 00:48:26,2021-12-27 00:48:27,1.383s,PASSED
+"setText(findTestObject(""Object Repository/Profil 2/android.widget.EditText - Your Address""), ""jalani bersama dia"", 0)",,,,2021-12-27 00:48:27,2021-12-27 00:48:28,0.733s,PASSED
+"tap(findTestObject(""Profil 2/android.widget.Button - OK""), 0)",,,,2021-12-27 00:48:28,2021-12-27 00:48:29,0.838s,PASSED
+"tap(findTestObject(""Object Repository/Profil 2/android.widget.ImageButton""), 0)",,,,2021-12-27 00:48:29,2021-12-27 00:48:29,0.805s,PASSED
+"verifyMatch(""asura"", ""asura"", 0 == 0)",,,,2021-12-27 00:48:29,2021-12-27 00:48:29,0.061s,PASSED
+"verifyMatch(""asura@gmail.com"", ""asura@gmail.com"", 0 == 0)",,,,2021-12-27 00:48:29,2021-12-27 00:48:29,0.003s,PASSED
+"verifyMatch(""0813877777000"", ""0813877777000"", 0 == 0)",,,,2021-12-27 00:48:29,2021-12-27 00:48:29,0.004s,PASSED
+"verifyMatch(""jalani bersama dia"", ""jalani bersama dia"", 0 == 0)",,,,2021-12-27 00:48:29,2021-12-27 00:48:29,0.001s,PASSED
+delay(5),,,,2021-12-27 00:48:29,2021-12-27 00:48:34,5.015s,PASSED
+closeApplication(),,,,2021-12-27 00:48:34,2021-12-27 00:48:36,1.105s,PASSED
